@@ -19,10 +19,10 @@ function Hog({hog}){
     const showHogDetails = (
         
         <div className="content">
-        <div>Weight: {hog.weight}</div>
-        <div>Specialty: {hog.specialty}</div>
-        <div>{(hog.greased) ? "Greased " : "Nongreased " } Hog</div>
-        <div>Highest medal achived: <b>{hog["highest medal achieved"]}</b></div>
+            <div>Weight: {hog.weight}</div>
+            <div>Specialty: {hog.specialty}</div>
+            <div>{(hog.greased) ? "Greased " : "Nongreased " } Hog</div>
+            <div>Highest medal achived: <b>{hog["highest medal achieved"]}</b></div>
         </div> 
     );
 
